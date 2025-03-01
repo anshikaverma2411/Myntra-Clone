@@ -98,3 +98,12 @@ header {
   max-height: 5em;
   font-weight: 700;
 }
+
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.sale_item {
+  width: 250px;
+}
