@@ -8,9 +8,10 @@
 header {
   display: flex;
   height: 80px;
-  background-color: rgb(232, 175, 175);
+  background-color: white;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #b6b1b1;
 }
 .myntra_home {
   height: 45px;
@@ -24,7 +25,7 @@ header {
 .nav_bar {
   display: flex;
   min-width: 500px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .nav_bar a {
   font-size: 14px;
@@ -33,6 +34,11 @@ header {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 29px 0;
+  border-bottom: 3px solid white;
+}
+.nav_bar a:hover {
+  border-bottom: 3px solid #f54e77;
 }
 .nav_bar a sup {
   font-size: 10px;
@@ -40,7 +46,8 @@ header {
 }
 .search_bar {
   height: 40px;
-  min-width: 400px;
+  min-width: 200px;
+  width: 30%;
   display: flex;
   align-items: center;
 }
@@ -65,7 +72,7 @@ header {
 .action_bar {
   display: flex;
   min-width: 200px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .action_container {
